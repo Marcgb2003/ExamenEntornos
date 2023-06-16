@@ -4,7 +4,7 @@
 
 \
 Hay que tener en consideración que en mi diagrama a la clase Planta se la considera un contenedor de Libros nada más, por lo que no tiene ningún método.
-Al ser el mismo bibliotecario el que se presta un libro a si mismo, no tiene porque llamar a otro en la función préstamo, pero sí que necesita un int porque, al tener su prestamo condiciones especiales de tiempo, en vez de recibir el tratado de 30 días, lo que se recibe es  el número de días que se lo llevará. A parte de eso la clase biliotecario es más una clase de interacción fuera de ella, tanto en Biblioteca como en Prestamo, que una que haga cosas en si misma.
+Al ser el mismo bibliotecario el que se presta un libro a si mismo, no tiene porque llamar a otro en la función préstamo, pero sí que necesita un int porque, al tener su prestamo condiciones especiales de tiempo, en vez de recibir el tratado de 30 días, lo que se recibe es  el número de días que se lo llevará. A parte de eso la clase biliotecario es más una clase de interacción fuera de ella, tanto en Biblioteca como en Prestamo, que una que haga procesos o contenga información en si misma.
 \
 Préstamo depende tanto de Usuario como de Bibliotecario, ya que si no existe un Bibliotecario no puede haber un préstamo, ya que son quienes los efectuan, y los usuarios quienes los piden. A su vez los usuarios y los bibliotecarios no pueden existir fuera de la biblioteca como tales.
 \
